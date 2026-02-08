@@ -1,0 +1,29 @@
+{
+    "mcp_constraints": {
+        "strict_api_usage": true,
+        "allowed_manga_provider": [
+            "komikindo"
+        ],
+        "allowed_anime_providers": [
+            "otakudesu",
+            "kuramanime",
+            "winbu",
+            "nimegami",
+            "animeindo"
+        ],
+        "disallowed_sources": [
+            "mangadex",
+            "manganelo",
+            "asurascans",
+            "fan-made APIs",
+            "mock data",
+            "placeholder content"
+        ],
+        "data_integrity": {
+            "no_fake_data": true,
+            "no_generated_titles": true,
+            "no_guessed_endpoints": true
+        },
+        "fallback_behavior": "If data is unavailable, show API error state, not fabricated UI data"
+    }
+}

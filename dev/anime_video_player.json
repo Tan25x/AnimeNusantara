@@ -1,0 +1,19 @@
+{
+    "anime_player": {
+        "server_selection": {
+            "label": "Server",
+            "providers": [
+                "otakudesu",
+                "kuramanime",
+                "winbu",
+                "nimegami",
+                "animeindo"
+            ],
+            "behavior": "Switch stream source without reloading page"
+        },
+        "player": {
+            "engine": "hls.js",
+            "supports_m3u8": true
+        }
+    }
+}

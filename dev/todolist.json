@@ -1,0 +1,14 @@
+{
+    "todo": [
+        "Initialize Next.js + Tailwind project",
+        "Implement MCP constraints in Antigravity",
+        "Build sidebar layout",
+        "Integrate anime home APIs",
+        "Create anime detail + episode list",
+        "Add server/provider switcher in player",
+        "Integrate Komikindo manga discovery",
+        "Build manga reader",
+        "Add library & history persistence",
+        "Deploy to Vercel"
+    ]
+}

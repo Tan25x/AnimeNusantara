@@ -1,0 +1,25 @@
+{
+    "project_name": "ANUS (AnimeNusantara)",
+    "description": "Anime streaming and manga reading platform using ShivraHub API",
+    "api_base_url": "https://shivraapi.my.id",
+    "content_sources": {
+        "anime": [
+            "otakudesu",
+            "kuramanime",
+            "winbu",
+            "nimegami",
+            "animeindo"
+        ],
+        "manga_manwha_manhua": [
+            "komikindo"
+        ]
+    },
+    "rules": {
+        "manga_source_is_exclusive": true,
+        "anime_provider_switching_enabled": true
+    },
+    "scalability": {
+        "stateless_frontend": true,
+        "edge_fetching": true
+    }
+}

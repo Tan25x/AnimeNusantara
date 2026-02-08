@@ -1,0 +1,16 @@
+{
+  "tech_stack": {
+    "frontend": "Next.js (App Router)",
+    "styling": "TailwindCSS",
+    "state": "Zustand",
+    "video": "hls.js",
+    "hosting": {
+      "frontend": "Vercel",
+      "api": "ShivraHub public API"
+    },
+    "storage": {
+      "favorites": "localStorage",
+      "history": "indexedDB"
+    }
+  }
+}

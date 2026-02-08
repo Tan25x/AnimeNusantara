@@ -1,0 +1,23 @@
+{
+  "sidebar": {
+    "sections": [
+      {
+        "title": "Anime",
+        "items": [
+          "Home",
+          "Discover",
+          "Favorites",
+          "History"
+        ]
+      },
+      {
+        "title": "Manga",
+        "items": [
+          "Library",
+          "Discover",
+          "History"
+        ]
+      }
+    ]
+  }
+}

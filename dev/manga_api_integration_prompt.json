@@ -1,0 +1,22 @@
+{
+    "manga_api": {
+        "provider": "komikindo",
+        "endpoints": {
+            "home": "/komikid/manga",
+            "search": "/komikid/search",
+            "detail": "/komikid/detail",
+            "chapters": "/komikid/chapters",
+            "pages": "/komikid/pages"
+        },
+        "supported_types": [
+            "manga",
+            "manhwa",
+            "manhua"
+        ],
+        "behavior": {
+            "library_storage": "localStorage or indexedDB",
+            "history_tracking": true,
+            "offline_cache": false
+        }
+    }
+}

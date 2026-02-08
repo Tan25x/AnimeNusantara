@@ -1,0 +1,22 @@
+{
+    "manga_ui": {
+        "discovery": {
+            "source": "komikindo",
+            "filters": [
+                "genre",
+                "type (manga/manhwa/manhua)",
+                "status"
+            ]
+        },
+        "reader": {
+            "mode": "vertical_scroll",
+            "image_source": "komikindo pages endpoint",
+            "controls": [
+                "next_chapter",
+                "previous_chapter",
+                "zoom",
+                "fullscreen"
+            ]
+        }
+    }
+}
