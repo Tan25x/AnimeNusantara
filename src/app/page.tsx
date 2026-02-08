@@ -26,9 +26,15 @@ export default async function Home() {
       }) : Promise.resolve([])
     ]);
 
-    if (results[0].status === 'fulfilled') ongoingAnime = results[0].value;
-    if (results[1].status === 'fulfilled') latestManga = results[1].value;
-    if (results[2].status === 'fulfilled') history = results[2].value;
+    if (results[0].status === 'fulfilled' && Array.isArray(results[0].value)) {
+      ongoingAnime = results[0].value;
+    }
+    if (results[1].status === 'fulfilled' && Array.isArray(results[1].value)) {
+      latestManga = results[1].value;
+    }
+    if (results[2].status === 'fulfilled' && Array.isArray(results[2].value)) {
+      history = results[2].value;
+    }
 
   } catch (e) {
     console.error("Home page data fetch error", e);
