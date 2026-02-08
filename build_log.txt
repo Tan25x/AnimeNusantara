@@ -1,0 +1,35 @@
+﻿
+> anime-streamapp@0.1.0 build
+> next build
+
+Γû▓ Next.js 16.1.6 (Turbopack)
+- Environments: .env.local, .env
+
+  Creating an optimized production build ...
+Γ£ô Compiled successfully in 2.6s
+  Running TypeScript ...
+  Collecting page data using 15 workers ...
+  Generating static pages using 15 workers (0/8) ...
+  Generating static pages using 15 workers (2/8) 
+  Generating static pages using 15 workers (4/8) 
+  Generating static pages using 15 workers (6/8) 
+Γ£ô Generating static pages using 15 workers (8/8) in 514.1ms
+  Finalizing page optimization ...
+
+Route (app)
+Γöî ╞Æ /
+Γö£ Γùï /_not-found
+Γö£ ╞Æ /anime/[id]
+Γö£ ╞Æ /api/auth/[...nextauth]
+Γö£ ╞Æ /history
+Γö£ Γùï /manga
+Γö£ ╞Æ /manga/[id]
+Γö£ ╞Æ /read/[id]
+Γö£ ╞Æ /search
+Γö£ ╞Æ /watch/[id]
+Γöö ╞Æ /watchlist
+
+
+Γùï  (Static)   prerendered as static content
+╞Æ  (Dynamic)  server-rendered on demand
+

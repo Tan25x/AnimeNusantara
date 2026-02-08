@@ -1,0 +1,45 @@
+{
+    "name": "Anime-Manga-Streaming-App",
+    "version": "1.0.0",
+    "description": "Scalable anime + manga streaming platform on Vercel",
+    "root": ".",
+    "language": "typescript",
+    "framework": "nextjs",
+    "tools": {
+        "database": "postgresql",
+        "orm": "prisma",
+        "auth": "authjs",
+        "state": "zustand",
+        "ui": "tailwind+shadcn",
+        "hosting": "vercel"
+    },
+    "context": {
+        "projectType": "fullstack-web-app",
+        "targetPlatform": "serverless",
+        "optimization": "low-resource",
+        "scalability": "horizontal",
+        "security": "high"
+    },
+    "capabilities": {
+        "fileAccess": true,
+        "shell": true,
+        "git": true,
+        "debug": true,
+        "refactor": true,
+        "test": true,
+        "deploy": true
+    },
+    "memory": {
+        "persist": true,
+        "storeProjectContext": true,
+        "storeSchema": true,
+        "storeApiRoutes": true
+    },
+    "instructions": {
+        "codeStyle": "clean-architecture",
+        "comments": "explain-complex-parts",
+        "naming": "camelCase",
+        "errorHandling": "strict",
+        "testing": "unit+integration"
+    }
+}

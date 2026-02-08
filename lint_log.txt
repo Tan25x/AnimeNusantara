@@ -1,0 +1,73 @@
+﻿
+> anime-streamapp@0.1.0 lint
+> eslint
+
+
+C:\Users\sulth\Documents\Codes\anime-streamapp\src\app\actions.ts
+   33:14  warning  'error' is defined but never used  @typescript-eslint/no-unused-vars
+   53:14  warning  'error' is defined but never used  @typescript-eslint/no-unused-vars
+  114:14  warning  'error' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\sulth\Documents\Codes\anime-streamapp\src\app\anime\[id]\page.tsx
+    2:10  warning  'addToWatchlist' is defined but never used                                                                                                                                                                                                                                               @typescript-eslint/no-unused-vars
+    5:33  warning  'Loader2' is defined but never used                                                                                                                                                                                                                                                      @typescript-eslint/no-unused-vars
+    5:42  warning  'Plus' is defined but never used                                                                                                                                                                                                                                                         @typescript-eslint/no-unused-vars
+    7:8   warning  'Image' is defined but never used                                                                                                                                                                                                                                                        @typescript-eslint/no-unused-vars
+   23:14  warning  'error' is defined but never used                                                                                                                                                                                                                                                        @typescript-eslint/no-unused-vars
+   48:29  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+  114:39  warning  'epNum' is assigned a value but never used                                                                                                                                                                                                                                               @typescript-eslint/no-unused-vars
+
+C:\Users\sulth\Documents\Codes\anime-streamapp\src\app\history\page.tsx
+   4:10  warning  'Trash2' is defined but never used                                                                                                                                                                                                                                                       @typescript-eslint/no-unused-vars
+  34:48  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+  64:48  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Users\sulth\Documents\Codes\anime-streamapp\src\app\manga\[id]\page.tsx
+   2:10  warning  'addToLibrary' is defined but never used                                                                                                                                                                                                                                                 @typescript-eslint/no-unused-vars
+   5:38  warning  'Loader2' is defined but never used                                                                                                                                                                                                                                                      @typescript-eslint/no-unused-vars
+   5:47  warning  'Plus' is defined but never used                                                                                                                                                                                                                                                         @typescript-eslint/no-unused-vars
+  22:14  warning  'error' is defined but never used                                                                                                                                                                                                                                                        @typescript-eslint/no-unused-vars
+  47:29  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Users\sulth\Documents\Codes\anime-streamapp\src\app\page.tsx
+  14:20  error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                 @typescript-eslint/no-explicit-any
+  15:16  error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                 @typescript-eslint/no-explicit-any
+  35:5   warning  'error' is assigned a value but never used                                                                                                                                                                                                                                               @typescript-eslint/no-unused-vars
+  85:34  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Users\sulth\Documents\Codes\anime-streamapp\src\app\read\[id]\page.tsx
+   24:14  warning  'error' is defined but never used                                                                                                                                                                                                                                                        @typescript-eslint/no-unused-vars
+   41:14  warning  'error' is defined but never used                                                                                                                                                                                                                                                        @typescript-eslint/no-unused-vars
+  101:29  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Users\sulth\Documents\Codes\anime-streamapp\src\app\search\page.tsx
+  20:23  error    Unexpected any. Specify a different type                         @typescript-eslint/no-explicit-any
+  21:23  error    Unexpected any. Specify a different type                         @typescript-eslint/no-explicit-any
+  31:14  warning  'error' is defined but never used                                @typescript-eslint/no-unused-vars
+  37:67  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  37:75  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+
+C:\Users\sulth\Documents\Codes\anime-streamapp\src\app\watch\[id]\page.tsx
+   3:10  warning  'Button' is defined but never used         @typescript-eslint/no-unused-vars
+   5:10  warning  'SkipForward' is defined but never used    @typescript-eslint/no-unused-vars
+   5:23  warning  'MessageCircle' is defined but never used  @typescript-eslint/no-unused-vars
+   7:20  warning  'redirect' is defined but never used       @typescript-eslint/no-unused-vars
+  23:14  warning  'error' is defined but never used          @typescript-eslint/no-unused-vars
+  43:14  warning  'error' is defined but never used          @typescript-eslint/no-unused-vars
+
+C:\Users\sulth\Documents\Codes\anime-streamapp\src\components\header.tsx
+  5:10  warning  'Button' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\sulth\Documents\Codes\anime-streamapp\src\components\media-card.tsx
+  14:29  warning  'id' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\sulth\Documents\Codes\anime-streamapp\src\components\sidebar.tsx
+   7:10  warning  'ScrollArea' is defined but never used                            @typescript-eslint/no-unused-vars
+   9:64  warning  'Search' is defined but never used                                @typescript-eslint/no-unused-vars
+  11:11  error    An interface declaring no members is equivalent to its supertype  @typescript-eslint/no-empty-object-type
+
+C:\Users\sulth\Documents\Codes\anime-streamapp\src\components\watchlist-button.tsx
+  7:10  warning  'toast' is defined but never used  @typescript-eslint/no-unused-vars
+
+Γ£û 42 problems (7 errors, 35 warnings)
+
