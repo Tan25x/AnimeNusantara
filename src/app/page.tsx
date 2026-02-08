@@ -142,6 +142,10 @@ export default async function Home() {
               type={manga.type || "Manga"}
               href={`/manga/${manga.slug}`}
             />
+            // <div>
+            //   <p>{manga.title}</p>
+            //   <img src={manga.image} alt={manga.title} width={100} />
+            // </div>
           ))}
         </div>
       </section>

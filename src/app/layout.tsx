@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Adze Design Streaming",
+  title: "Anus",
   description: "Anime and Manga streaming platform",
 };
 
